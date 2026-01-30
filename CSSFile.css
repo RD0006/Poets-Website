@@ -19,9 +19,6 @@
     --hamburger-height: calc(var(--bar-height)*3 + var(--hamburger-gap)*2);
 }
 
-
-/* tags */
-
 html {
     scroll-behavior: smooth;
 }
@@ -41,6 +38,12 @@ body {
 a {
     text-decoration: none;
     color: var(--text-color);
+}
+
+.page {
+    text-align: center;
+    width: 100%;
+    height: min-content;
 }
 
 
@@ -215,12 +218,6 @@ a {
 
 /* about pages */
 
-.about-page {
-    text-align: center;
-    width: 100%;
-    height: min-content;
-}
-
 .about-content {
     padding-top: 5%;
 }
@@ -252,4 +249,23 @@ a {
     margin: 2%;
     padding-left: 4%;
     padding-right: 4%;
+}
+
+/* quotes pages */
+
+.quotes-content {
+    margin-top: 10%;
+}
+
+.quotes-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.quote-element {
+    margin: 5%;
+}
+
+.quote-img {
+    margin-bottom: 2%;
 }
