@@ -9,7 +9,7 @@
 :root {
     --common-font-family: Verdana, Geneva, Tahoma, sans-serif;
     --text-color: rgb(43, 3, 3);
-    --color1: whitesmoke;
+    --color1: rgb(203, 197, 180);
     --color2: rgb(43, 3, 3);
     --bar-width: 40px;
     --bar-height: 6px;
@@ -57,8 +57,7 @@ a {
     z-index: 8;      
     cursor: pointer;
     overflow-x: hidden;
-    animation: load-in 2s forwards 0s;
-    margin-left: 10px;
+    margin-left: 48.5%;
 }
 
 .hamburger-menu:has(input:focus-visible)::before,
@@ -106,7 +105,7 @@ a {
 }
 
 .hamburger-menu:has(input:checked) + .sidebar {
-    translate: 0;
+    transform: translateY(0);
 }
 
 .hamburger-menu:has(input:checked) {
@@ -121,8 +120,8 @@ a {
 
 .sidebar {
     position: fixed;
-    transition: translate var(--animation-timing);
-    translate: -100%; 
+    transition: translateY(100%) ease-in-out var(--animation-timing);
+    transform: translateY(100%); 
     top: 0;
     padding: 0.5rem 1.5rem;
     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin));
@@ -130,9 +129,8 @@ a {
     width: 100%;
     min-height: 100vh;
     z-index: 6;
-    background-color: var(--color1);
-    float: left;
-    width: 35%;
+    background-image: url("index/images/index.jpg");
+    background-size: cover;
 }
 
 .menu-option {
@@ -143,7 +141,7 @@ a {
     font-weight: bold;
 }
 
-.menu-option:hover {
+.menu-option a:hover {
     cursor: pointer;
 }
 
@@ -151,6 +149,8 @@ a {
 /* header */
 
 .header {
+    background-image: url("index/images/index.jpg");
+    background-size: cover;
     position: fixed;
     font-size: 20px;
     color: var(--text-color);
@@ -163,7 +163,7 @@ a {
 }
 
 .header-options {
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 25px;
     margin-left: 69.5%;
     font-weight: bold;
@@ -178,21 +178,32 @@ a {
 
 .header-logo {
     position: fixed;
-    top: 20px;
-    left: 50px;
+    top: 10px;
+    left: 0px;
     text-align: center;
     float: left;
-    padding-left: 40px;
+    padding-left: 8px;
 }
 
 .header-logo-img {
-    height: 80px;
+    height: 45px;
+}
+
+.header-title {
+    position: fixed;
+    top: 25px;
+    left: 20px;
+    text-align: center;
+    float: left;
+    padding-left: 40px;
+    font-weight: bold;
 }
 
 
 /* footer */
 
 .footer {
+    padding: 2%;
     color: var(--text-color);
 }
 
@@ -205,9 +216,22 @@ a {
     height: min-content;
 }
 
-.author-name {
-    color: var(--text-color);
+.about-content {
+    padding-top: 5%;
+}
+
+.poet-details {
+    margin-bottom: 2%;
+}
+
+.poet-details-span {
+    display: block;
+    margin: 1%;
     font-weight: bold;
+}
+
+.poet-name {
+    color: var(--text-color);
     font-size: 35px;
 }
 
@@ -215,6 +239,12 @@ a {
     margin: 2%;
 }
 
-.about-content {
-    padding-top: 7%;
+.about-poet-img {
+    height: 40vh;
+}
+
+.about-div {
+    margin: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
