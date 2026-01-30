@@ -1,5 +1,18 @@
 index.jpg
 https://unsplash.com/photos/white-wall-paint-with-black-line-qv05FvdE26k
 
+edgar-allen-poe.jpg
+https://en.wikipedia.org/wiki/Edgar_Allan_Poe#/media/File:Edgar_Allan_Poe,_circa_1849,_restored,_squared_off.jpg
+
 emily-dickinson.png
 https://en.wikipedia.org/wiki/Emily_Dickinson#/media/File:Black-white_photograph_of_Emily_Dickinson2.png
+
+john-keats.jpg
+https://en.wikipedia.org/wiki/John_Keats#/media/File:John_Keats_by_William_Hilton_circa_1822_02.jpg
+
+robert-louis-stevenson.jpg
+https://en.wikipedia.org/wiki/Robert_Louis_Stevenson#/media/File:Robert_Louis_Stevenson_by_Henry_Walter_Barnett_bw.jpg
+
+william-wordsworth.jpg
+https://en.wikipedia.org/wiki/William_Wordsworth#/media/File:Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg
+
