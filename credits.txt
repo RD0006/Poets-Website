@@ -1,3 +1,5 @@
 index.jpg
 https://unsplash.com/photos/white-wall-paint-with-black-line-qv05FvdE26k
 
+emily-dickinson.png
+https://en.wikipedia.org/wiki/Emily_Dickinson#/media/File:Black-white_photograph_of_Emily_Dickinson2.png

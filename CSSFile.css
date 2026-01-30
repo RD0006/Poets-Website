@@ -133,6 +133,11 @@ a {
     background-size: cover;
 }
 
+.sidebar-logo {
+    margin-top: 5%;
+    height: 50px;
+}
+
 .menu-option {
     font-size: 18px;
     padding: 10px;    
